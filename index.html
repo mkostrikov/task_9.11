@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Генератор случайных пользователей</title>
+</head>
+<body>
+    <header>
+        <h1>Окно результатов генерации</h1>
+    </header>
+    <main>
+        <div class="keys">
+            <p>Пол:</p>
+            <p>Фамилия:</p>
+            <p>Имя:</p>
+            <p>Отчество:</p>
+            <p>Дата рождения:</p>
+            <p>Профессия:</p>
+        </div>
+        <div class="values">
+            <p id="genderOutput"></p>
+            <p id="surnameOutput"></p>
+            <p id="firstNameOutput"></p>
+            <p id="patronymicOutput"></p>
+            <p id="birthDateOutput"></p>
+            <p id="profOutput"></p>
+        </div>
+    </main>
+    <footer>
+        <button class="generate">Сгенерировать</button>
+        <button class="reset">Очистить</button>
+    </footer>
+
+    <script src="personGenerator.js"></script>
+    <script src="init.js"></script>
+</body>
+</html>

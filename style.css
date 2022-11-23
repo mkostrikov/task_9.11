@@ -1,0 +1,31 @@
+header, main, footer {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: gray;
+}
+
+main {
+    display: flex;
+}
+
+.keys {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.values {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.values p {
+    padding: 0 0 0 15px;
+}

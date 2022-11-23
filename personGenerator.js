@@ -98,8 +98,8 @@ const personGenerator = {
         }
     }`,
 
-  GENDER_MALE: "Мужчина",
-  GENDER_FEMALE: "Женщина",
+  GENDER_MALE: "мужчина",
+  GENDER_FEMALE: "женщина",
 
   randomIntNumber: (max = 1, min = 0) =>
     Math.floor(Math.random() * (max - min + 1) + min),
@@ -116,7 +116,7 @@ const personGenerator = {
   },
 
   randomFirstName: function (gender) {
-    if (gender === "Мужчина") {
+    if (gender === "мужчина") {
       return this.randomValue(this.firstNameMaleJson);
     } else {
       return this.randomValue(this.firstNameFemaleJson);
@@ -124,7 +124,7 @@ const personGenerator = {
   },
 
   randomSurname: function (gender) {
-    if (gender === "Мужчина") {
+    if (gender === "мужчина") {
       return this.randomValue(this.surnameJson);
     } else {
       return `${this.randomValue(this.surnameJson)}а`;
@@ -132,7 +132,7 @@ const personGenerator = {
   },
 
   randomPatronymic: function (gender) {
-    if (gender === "Мужчина") {
+    if (gender === "мужчина") {
       return `${this.randomValue(this.firstNameMaleJson)}ович`;
     } else {
       return `${this.randomValue(this.firstNameMaleJson)}овна`;
@@ -164,7 +164,7 @@ const personGenerator = {
   },
 
   randomProf: function (gender) {
-    if (gender === "Мужчина") {
+    if (gender === "мужчина") {
       return this.randomValue(this.profMaleJson);
     } else {
       return this.randomValue(this.profFemaleJson);
