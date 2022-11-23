@@ -1,7 +1,7 @@
 header,
 main,
 footer {
-  width: 500px;
+  width: 475px;
   margin: 0 auto;
   text-align: center;
 }
@@ -22,6 +22,7 @@ main {
 }
 
 .buttons {
+  width: 175px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,14 +36,14 @@ main {
 }
 
 .keys {
-  width: 50%;
+  width: 125px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
 .values {
-  width: 50%;
+  width: 175px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
