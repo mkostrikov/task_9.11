@@ -1,5 +1,4 @@
 document.querySelector(".generate").addEventListener("click", generatePerson);
-document.querySelector(".reset").addEventListener("click", resetPerson);
 
 function generatePerson() {
   personGenerator.getPerson();
@@ -9,6 +8,7 @@ function generatePerson() {
   document.querySelector("#patronymicOutput").innerHTML = personGenerator.person.patronymic;
   document.querySelector("#birthDateOutput").innerHTML = personGenerator.person.birthDate;
   document.querySelector("#profOutput").innerHTML = personGenerator.person.prof;
+  document.querySelector(".reset").addEventListener("click", resetPerson);
 }
 
 function resetPerson() {
